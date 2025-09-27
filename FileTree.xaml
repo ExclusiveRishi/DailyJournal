@@ -1,0 +1,30 @@
+﻿<Window x:Class="DailyJounal.FileTree"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DailyJounal"
+        mc:Ignorable="d"
+        Title="Daily Journal FileTree" Height="500" Width="300"
+        Closing="Window_Closing">
+    <Grid>
+        <TreeView Name="PageView" SelectedItemChanged="PageViewItemSelected">
+            <TreeViewItem Header="Fruits">
+                <TreeViewItem Header="Citrus">
+                    <TreeViewItem Header="Orange" />
+                    <TreeViewItem Header="Lemon" />
+                </TreeViewItem>
+                <TreeViewItem Header="Berries">
+                    <TreeViewItem Header="Strawberry" />
+                    <TreeViewItem Header="Blueberry" />
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Vegetables">
+                <TreeViewItem Header="Leafy">
+                    <TreeViewItem Header="Spinach" />
+                    <TreeViewItem Header="Lettuce" />
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
