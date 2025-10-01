@@ -33,4 +33,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Building from Source
 
+### Prerequisites:
+- Visual Studio 2022
+- .NET 9
+
 This is a WPF application. Open the solution in Visual Studio and build.
