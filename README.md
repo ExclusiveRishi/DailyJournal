@@ -13,13 +13,13 @@ A minimal journaling app for Windows. One file per day. That's it.
 ## Requirements
 
 - Windows
-- .NET Framework (WPF)
+- .NET 9
 
 ## How to Use
 
-1. Run the app
-2. Start writing
-3. That's it
+1. Download the Zip file from [here](https://github.com/ExclusiveRishi/DailyJournal/releases) and extract it to "DailyJournal" Folder
+2. Open `DailyJournal.exe`
+3. Start writing
 
 Your entries are automatically saved. Yesterday's entries are locked and can only be read.
 
